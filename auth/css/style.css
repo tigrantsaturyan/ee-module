@@ -1,0 +1,225 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+li{
+	list-style: none;
+}
+a,a:focus, a:hover,a:link, a:visited{
+	text-decoration: none;
+}
+.error{
+	color: #f00;
+}
+.no_margin_top{
+	margin-top: 0px !important;
+}
+.row > div{
+	float: none !important;
+	margin: 0px auto;
+	margin-top: 150px;
+}
+.form-signin{
+	max-width: 330px;
+	padding: 15px;
+	margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox{
+	margin-bottom: 10px;
+}
+.form-signin .checkbox{
+	font-weight: normal;
+}
+.form-signin .form-control{
+	position: relative;
+	font-size: 16px;
+	height: auto;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-signin .form-control:focus{
+	z-index: 2;
+}
+
+.form-signin input[type="date"]{
+	padding: 5px 10px;
+	color: #9FA8AF;
+	margin-bottom: 10px;
+}
+.form-signin input[type="file"]{
+	margin-bottom: 10px;
+}
+.form-signin input[type="text"]{
+	margin-bottom: -1px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	margin-bottom: 10px;
+}
+.form-signin input[type="password"]{
+	margin-bottom: 10px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+.account-wall{
+	margin-top: 20px;
+	padding: 40px 0px 20px 0px;
+	background-color: #f7f7f7;
+	-moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title{
+	color: #555;
+	font-size: 18px;
+	font-weight: 400;
+	display: block;
+}
+.profile-img{
+	width: 96px;
+	height: 96px;
+	margin: 0 auto 10px;
+	display: block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+.need-help{
+	margin-top: 10px;
+}
+.new-account{
+	display: block;
+	margin-top: 10px;
+}
+.center{
+	width: 960px;
+	float: left;
+	margin-left: calc(50% - 480px);
+	background-color: #fff;
+	min-height: 400px;
+	overflow: hidden;
+	margin-top: 100px;
+}
+.user-profile{
+	box-shadow: 0px 0px 10px 1px #000;
+	min-height: 400px;
+	width: 240px;
+	padding: 15px;
+}
+.user-profile #user_avatar{
+	width: 210px;
+	height: 210px;
+	overflow: hidden;
+	float: left;
+}
+.user-profile #user_avatar img{
+	height: 100%;
+	margin-left: calc(50% - 133px);
+}
+.user-profile #user_name{
+	float: left;
+	margin: 20px 0px;
+	width: 100%;
+}
+.user-profile #user_name p{
+	text-transform: capitalize;
+	font-size: 24px;
+	text-align: center;
+	cursor: default;
+	font-family: sans-serif;
+	line-height: 1.4;
+}
+.user-profile #nav {
+	width: 100%;
+}
+.user-profile #nav li{
+	margin-left: 0px; 
+	float: left;
+	width: 100%;
+}
+.user-profile #nav li.active{
+	background-color: #f00;
+}
+.user-profile #nav li.active a{
+	color: #fff;
+}
+.user-profile #nav li:hover{
+	background-color: #f00;
+}
+.user-profile #nav li:hover a{
+	color: #fff;
+}
+.user-profile #nav li a{
+	font-size: 19px;
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+	font-family: sans-serif;
+	text-align: center;
+}
+#edit_profile{
+	padding: 20px;
+}
+.edit{
+	float: left;
+	width: 720px;
+	margin-top: 20px;
+}
+.profile{
+	padding: 30px;
+}
+#edit_profile input{
+	width: 50%;
+	float: left;
+}
+@media (max-width: 960px){
+	body{
+		padding: 20px;
+		float: left;
+		width: 100%;
+	}
+	.center{
+		width: 100%;
+		margin-left: calc(50% - 50%);
+		height: inherit;
+		margin-top: 0px;
+	}
+	.user-profile{
+		width: 100%;
+		float: left;
+		text-align: center;
+		box-shadow: 0px 7px 21px -3px #000;
+		position: relative;
+		z-index: 9;
+	}
+	.edit{
+		width: 100%;
+		float: left;
+		background-color: #fff;
+	}
+	.form-group{
+		text-align: center;
+	}
+	.user-profile #user_avatar{
+		margin-left: calc(50% - 100px);
+	}
+	html body #edit_profile .form-group label,
+	html body .edit .form-group label{
+		width: 100% !important;
+		text-align: center;
+		margin: 10px 0px;
+	}
+	html body #edit_profile .form-group > div{
+		width: 100%;
+		text-align: center;
+		margin: 0px;
+	}
+	#edit_profile input{
+		width: 100%;
+		margin-left: calc(50% - 50%);
+	}
+	#edit_profile .form-group .btn{
+		padding: 10px 70px;
+	}
+}
